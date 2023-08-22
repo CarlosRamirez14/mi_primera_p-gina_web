@@ -1,34 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Primera Página Web</title>
-    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        /* main {
+            padding: 2em;
+        } */
+        section {
+            /* margin-bottom: 2em; */
+            color: white;
+            padding: 2em;
+        }
+        #inicio{
+            background-color: #359d74;
+        }
+        #inicio img{
+            border-radius: 50%;
+        }
+        #experiencia{
+            background-color: #809d69;
+        }
+        #skills{
+            background-color: #ee9654;
+        }
+        #contacto{
+            background-color: #1f2f41;
+        }
+        /* h2 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        } */
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi Página Web</h1>
+        <h1>Carlos Andrés Ramírez</h1>
+        <p>Programador Web Apasionado</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#acerca-de">Acerca de</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-    <section id="inicio">
-        <h2>¡Hola Mundo!</h2>
-        <p>Bienvenido a mi primera página web. Aquí encontrarás información interesante sobre diversos temas.</p>
-    </section>
-    <section id="acerca-de">
-        <h2>Acerca de Mí</h2>
-        <p>Soy un apasionado del desarrollo web y me encanta aprender nuevas tecnologías. ¡Espero que disfrutes de mi página web!</p>
-    </section>
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Ponte en contacto conmigo a través de mi correo electrónico o redes sociales. ¡Estoy ansioso por escucharte!</p>
-    </section>
-    <footer>
-        <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
-    </footer>
+    <main>
+        <section id="inicio">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Mi Foto de Perfil" width="150" height="150">
+            <h2>Acerca de Mí</h2>
+            <p>¡Hola! Soy Carlos Andrés, un apasionado programador web con experiencia en HTML, CSS y JavaScript. Mi objetivo es crear soluciones web innovadoras y efectivas.</p>
+        </section>
+        <section id="experiencia">
+            <h2>Experiencia Laboral</h2>
+            <p>Actualmente trabajo para 2 empresas colombianas, donde fusiono mi pasión por el código y la educación en línea. He colaborado en proyectos diversos y emocionantes.</p>
+        </section>
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Desarrollo Frontend</li>
+                <li>Enseñanza en línea</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme en <a href="mailto:carlos@example.com">carlos@example.com</a></p>
+        </section>
+    </main>
 </body>
 </html>
